@@ -10,7 +10,6 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link rel="icon" href="/favicon.ico" />
-
       </Head>
 
       <main className="flex h-screen">
@@ -25,7 +24,7 @@ export default function Home() {
             <p>You can search all Esports personnel here</p>
           </div>
 
-          <form className="h-20 grid grid-cols-4">
+          <form className="h-20 grid grid-cols-4 lg:w-3/4 xl:w-1/2 m-auto">
 
             <div className="col-span-3 bg-gray-100 rounded-l-lg">
 
@@ -39,8 +38,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <input className="bg-gray-100 text-xl text-gray-500 focus:outline-none focus:shadow-outline" id="search" type="text" placeholder="Search for something here" />
-
+                <input className="bg-gray-100 sm:text-xl text-gray-500 focus:outline-none focus:shadow-outline" id="search" type="text" placeholder="Type here..." />
 
               </div>
             </div>
