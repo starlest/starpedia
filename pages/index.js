@@ -8,14 +8,13 @@ export default function Home() {
         <title>Starpedia</title>
         <meta name="description" content="Your one stop WIKI for Esports" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
 
       <main className="flex h-screen">
-        <div class="m-auto w-3/4 lg:w-1/2">
+        <div className="m-auto w-3/4 lg:w-1/2">
 
           <h1 className="text-5xl font-extrabold text-center">
             Welcome to Starpedia
@@ -40,7 +39,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <input class="bg-gray-100 text-xl text-gray-500 focus:outline-none focus:shadow-outline" id="search" type="text" placeholder="Search for something here" />
+                <input className="bg-gray-100 text-xl text-gray-500 focus:outline-none focus:shadow-outline" id="search" type="text" placeholder="Search for something here" />
 
 
               </div>
